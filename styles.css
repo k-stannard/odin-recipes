@@ -1,0 +1,36 @@
+body {
+    background-color:aliceblue;
+}
+
+.title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+}
+
+p.title {
+    font-size: 24px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuContainer {
+    margin: auto;
+    background-color:rgb(255, 237, 192);
+    height: 400px;
+    width: 300px;
+    text-align: left;
+    list-style-position: inside;
+    border-style: double;
+}
+
+.odinImage {
+    float: left;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
