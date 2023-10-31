@@ -24,8 +24,8 @@ p.title {
     height: 400px;
     width: 300px;
     text-align: left;
-    list-style-position: inside;
     border-style: double;
+    padding: 8px;
 }
 
 .odinImage {
@@ -33,4 +33,22 @@ p.title {
     text-align: center;
     height: auto;
     width: auto;
+}
+
+.menuItem {
+    background-color: purple;
+}
+
+.link {
+    border: 2px dotted antiquewhite;
+    background-color: burlywood;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.link:active {
+    background-color: rgb(215, 169, 110);
 }
